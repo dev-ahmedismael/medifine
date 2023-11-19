@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Administration",
+    "content": [
+      {
+        "id": 1,
+        "title": "Doctor degree",
+        "url": "/dashboard/doctor-degree"
+      },
+      {
+        "id": 2,
+        "title": "Appointment and re-appointment cost",
+        "url": "/dashboard/appointment-and-re-appointment-costs"
+      },
+      {
+        "id": 3,
+        "title": "Doctor specialities",
+        "url": "/dashboard/doctor-specialities"
+      },
+      {
+        "id": 4,
+        "title": "Employee",
+        "url": "/dashboard/employee"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Doctor",
+    "content": [
+      {
+        "id": 1,
+        "title": "Schedule",
+        "url": "/dashboard/doctor-schedule"
+      }
+    ]
+  }
+]

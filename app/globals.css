@@ -1,0 +1,79 @@
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+nav {
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+}
+main {
+  margin-top: 75px;
+}
+#main {
+  margin-top: 75px;
+  background-color: #e3f2fd;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#landing-page {
+  min-height: 100vh;
+  background-image: url("/images/landing-page.jpg");
+  background-size: 100vw 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.img-wrap {
+  position: relative;
+  z-index: 1;
+}
+.img-wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Sidebar */
+#main_sidebar {
+  width: 75px;
+  padding-top: 75px;
+  background-color: white;
+  color: #2196f3;
+  transition: 0.5s all;
+}
+#main_sidebar_body {
+  height: calc(100vh - 150px);
+}
+#main_sidebar:hover {
+  width: 300px;
+  transition: 0.5s all ease;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #e3f2fd;
+}
+::-webkit-scrollbar-thumb {
+  background: #2196f3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+footer {
+  background-color: white;
+}
